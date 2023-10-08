@@ -4,8 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendiendo HTML</title>
+    <style>
+        table, th, td {
+           border: 1px solid black
+        }
+    </style>
 </head>
 <body>
+
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Hola Beats</td>
+            <td>Gratis</td>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Raton logi</td>
+                <td>10$ </td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz muy feliz</td>
+                <td>20$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 30$</td>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <!--ul es lista no ordenada // ol es lista ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <br>
+    <ol>
+        <li value="1">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">Subelemento 1</li>
+                <li style="list-style-type: lower-alpha;">Subelemento 2</li>
+                <li style="list-style-type: lower-roman;">Subelemento 3</li>
+                <li style="list-style-type: lower-alpha;">Subelemento 4</li>
+
+            </ol>
+        </li>
+    </ol>
+
+
+    <br>
+    <br>
+    <form> 
+        <label for="nombre">Nombre</label>
+        <input value="nombre" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value= "apellido" type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea rows="10" cols="50" id="comentario"  name="comentario">
+        </textarea>
+        <br>
+        <button type="button">tipo boton</button>
+        <button type="reset">tipo reset</button>
+        <button type="submit">submit</button>
+    </form>
+    <br><br>   
     <h1>Mi primer heading</h1> 
     <h2>Mi segundo heading</h2>    
     <h3>Mi tercer heading</h3>    
@@ -13,12 +91,11 @@
     <h5>Mi quinto heading</h5>    
     <h6>Mi sexto heading</h6>    
     <p>Chanchito feliz esta muy feliz</p>
-    
     <p>
         Este texto es <span style="color:blue">mucho mas largo</span> y es para mostrar<br>
         la etiqueta de span
     </p>
     <a target="_blank" href="https://www.reddit.com">Ir a Reddit</a><br>
-    <img src="img/reddit.png" />
+    <img src="../img/reddit.png" height="400" /> 
 </body>
 </html>
