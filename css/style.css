@@ -1,9 +1,8 @@
-table, tr, td {
-    border: 1px;
-    font-size: 14px;
+body {
+    background-color: khaki;
 }
 
-#logo {
-    width: 60px;
+.cabecera {
+    background-color: aliceblue;
+    height: 100px;
 }
-
