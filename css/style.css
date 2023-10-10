@@ -1,8 +1,56 @@
 body {
     background-color: khaki;
 }
+h1 {
+    text-align: center;
+    
+}
 
 .cabecera {
     background-color: aliceblue;
     height: 100px;
+}
+
+/*
+.seccion {
+    margin-top: 10px;
+    background-color: cadetblue;
+    height: 200px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}*/
+
+#div_1 {
+    margin-top: 10px;
+    background-color: coral;
+    height: 900px;
+    width: 90vh;
+
+    display: flex;
+    position: relative;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#div_2 {
+    margin-top: 10px;
+    background-color: aquamarine;
+    height: 900px;
+    width: 90vh;
+
+    display: flex;
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+}
+#betis {
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+    
 }
