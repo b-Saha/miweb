@@ -1,0 +1,9 @@
+table, tr, td {
+    border: 1px;
+    font-size: 14px;
+}
+
+#logo {
+    width: 60px;
+}
+
